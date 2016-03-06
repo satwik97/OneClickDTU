@@ -1,0 +1,108 @@
+
+{% extends "base.html" %}
+
+{% block title %}
+One Click DTU : Important Links Related To DTU
+{% endblock %}
+
+{% block description %}
+Author: Satwik Kansal , Location: Delhi Technological University(DTU), Category: Information 
+{% endblock %}
+
+{% block cssfile %}
+css/index.css
+{% endblock %}
+
+{% block cover %}
+
+{% endblock %}	
+
+{% block content %}
+<div class="row">
+	<div class="col-md-8">
+		<div class="row">
+			<div class="col-md-6 col-sm-12 col-xs-12"><div class="uquick">
+				<h2 class="red">Quick Links DTU	</h2><br>
+				<ul>
+					<li><a target="_blank" href="http://14.139.251.99:8080/jopacv06/html/checkouts">Reissue Library books</a></li>
+					<li><a target="_blank" href="http://dtu.ac.in/Web/Academics/notice.php">Academic Notices</a></li>
+					<li><a target="_blank" href="https://www.onlinesbi.com/prelogin/icollecthome.htm?corpID=346985">Mess Bill Pay </a></li>
+					<li><a target="_blank" href="http://exam.dtu.ac.in/result.htm">Check Result</a></li>
+					<li><a target="_blank" href=" http://tinyurl.com/mlp7xlx">Confess (On DCE Speaks Up)</a></li>
+					<li><a target="_blank" href="http://library.dce.edu/e-resources/syllabus">Syllabus</a></li>
+					<li><a target="_blank" href="http://dtu.ac.in/Web/Academics/pdf/Academic%20Calendar%202015-16.pdf">Academic Calendar</a></li>
+				</ul>
+			</div></div> 	
+			<div class="col-md-6"> <div class="uquick"><h2 class="red"> Study Material </h2>
+				    <ul>
+					     <li>
+						<a target="_blank" href="www.aglasem.com/institutes/dtu-notes-files/">AglaSem</a></li>
+						<li><a target="_blank" href="https://drive.google.com/folderview?id=0B5WAUv2qkI6zZHBuVWNBNWNMYlE&usp=sharing">DTU Studies</a></li>
+						<li><a target="_blank" href="http://dtu2016.wordpress.com">dtu2016 wordpress</a></li>
+						<li><a target="_blank" href="http://dtu2015.blogspot.in/">dtu2015 blogspot</a></li>
+						<li><a target="_blank" href="http://dtu.championswimmer.in/">dtu.championswimmer.in</a></li>
+
+					</ul>
+				</div>
+				</div></div>
+				<div class="row">
+					<div class="imp">
+						<div class="row">
+							<div class="col-md-6" >
+								<a target="_blank" href="http://www.dtu.ac.in/"><div class="thumbnail"><img src="../images/images.jpg" alt="Image not found"><h3 class="link">DTU official Site</h3></div></a>
+							</div>
+							<div class="col-md-6">
+								<a target="_blank" href="https://www.facebook.com/DceSpeaksUp"><div class="thumbnail"><img src="../images/images.jpg" alt="Image not found"><h3 class="link">DCE Speaks up</h3></div></a>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-6">
+									<a target="_blank" href="https://dtutimes.wordpress.com/"><div class="thumbnail"><img src="../images/images.jpg" alt="Image not found"><h3 class="link">DTU Times</h3></div></a>
+								</div>
+								<div class="col-md-6">
+									<a target="_blank" href="https://drive.google.com/folderview?id=0B5WAUv2qkI6zZHBuVWNBNWNMYlE&usp=sharing"><div class="thumbnail"><img src="../images/images.jpg" alt="Image not found"><h3 class="link">DTU Studies</h3></div></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-4">
+				<div class="row">
+				<div class="uquick" id="#calendar"><h2 class="red">DTU Calendar <span style="font-size:14px;color:red;">(Updated on {{today}})</span></h2><br>
+					<div class="calendar-data">
+					<ul>	
+						{% for event in events %}
+						<li><a target="_blank" href="{{event["link"]}}"> {{event["date"]}}  : {{event["title"]}}</a></li>				
+						{% endfor %}
+					</ul>
+					<h3 class="blue"><!--<a target="_blank" href="https://docs.google.com/forms/d/14VwuoAt_NKj6EzP_vVv5v2xgQwsJ8UkO6ykyXnHGtIs/viewform?entry.26157055&entry.662617067=http://&entry.1279610594&entry.507994441&entry.599858035">-->
+					<a href="/addEvent">Submit your own event</a><span style="font-size:14px;color:red;">Featured</span></h3>
+					</div>
+					<br>
+
+				</div></div> 	
+				<div class="row"><h2 class="red"> Featured </h2>
+				<ul style="list-style:outside none none;">
+				<li><h3 class="blue"><a target="_blank" href="https://docs.google.com/forms/d/14VwuoAt_NKj6EzP_vVv5v2xgQwsJ8UkO6ykyXnHGtIs/viewform?entry.26157055&entry.662617067=http://&entry.1279610594&entry.507994441&entry.599858035">Submit your own event</a></h3></li>
+				<li>
+					<h3 class="blue"><a href="http://goo.gl/forms/5hjulRTo4E" target="_blank">Suggest a link</a></h3>
+				</li>
+				<li><h3 class="blue"><a target="_blank" href="https://appear.in/dtuwiki">DTU's Video Chat Room</a></h3></li>
+				<li><h3 class="blue"><a id="bookmark-this" title="Bookmark This Page" href="#">Bookmark this page</a></h3></li>
+				</ul>
+
+				</div>
+				<div class="row"> <h2 class="red">One click Library Login</h2>
+						<form action="/library" method="post">
+							<input type="text" name="libraryID"><br>
+							<input type="submit" value="Go">
+						</form>					
+				</div>
+			</div>
+			</div>
+
+			
+
+
+	{% endblock %}

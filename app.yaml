@@ -1,0 +1,28 @@
+version: 1
+runtime: python27
+api_version: 1
+threadsafe: true
+
+handlers:
+- url: /css
+  static_dir: css
+- url: /images
+  static_dir: images
+- url: /js
+  static_dir: js
+- url: /font-awesome/css
+  static_dir: font-awesome/css
+- url: /font-awesome/fonts
+  static_dir: font-awesome/fonts
+- url: /fonts
+  static_dir: fonts
+- url: /.*
+  script: main.app 
+
+
+
+libraries:
+-  name: jinja2
+   version: latest
+-  name: pycrypto
+   version: "2.6"

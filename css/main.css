@@ -1,0 +1,182 @@
+/* Main CSS File */
+
+@font-face {
+  font-family: 'JennaSue';
+    src: url('../fonts/JennaSue.ttf')  format('truetype');/* Safari, Android, iOS */
+}
+@font-face {
+  font-family: 'edo';
+    src: url('../fonts/edo.ttf')  format('truetype');/* Safari, Android, iOS */
+}
+@media only screen and (max-width: 500px) {
+    body{
+     padding-right: 10px;
+     padding-left: 10px;
+    }}
+
+.navbar{
+  height: 80px;
+} 
+
+
+
+.uheader{
+  height: 440px;
+}
+@media only screen and (max-width: 500px) {
+    .uheader{
+      background: url('../images/swirl.png');
+      max-height:150px;
+    }}
+
+@media only screen and (max-width: 500px) {
+    .ucover{
+      background: url('../images/smcover.jpg');
+      max-height:150px;
+    }}
+a{
+  
+  text-decoration: none;
+}
+.logo{
+  padding-left: 20px;
+}
+a:hover {
+  color:blue;
+  text-decoration: none;
+  
+}
+.nav {
+  margin-bottom: 0px;
+}
+.nav a {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: #274954;
+  font-size: 17px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+}
+
+.nav a:hover {
+  text-decoration: none;
+  color: blue;
+}
+.nav li {
+  display: inline;
+}
+.navbar {
+  z-index: 100;
+  width:100%;
+  position: fixed;
+  height:80px;
+  background-color:#FEF7F7; 
+}
+@media only screen and (max-width: 500px) {
+    .navbar{
+      position: relative;
+    }}
+
+.nav ul {
+	padding-top: 20px;
+}
+
+.ucover {
+margin-right: auto;
+margin-left: auto;
+background-image:url('../images/ocdcover.jpg');
+height:333px;
+ background-repeat: no-repeat;
+ background-size: cover;
+ position: relative;
+ top:80px;
+}
+
+@media only screen and (max-width: 500px) {
+    .ucover{
+      position: relative;
+        
+      height: 1px;
+    }}
+
+
+
+
+
+ul li ul.dropdown{
+        min-width: 125px; /* Set width of the dropdown */
+        background: #f2f2f2;
+        display: none;
+        position: relative;
+       
+        left: 0;
+    }
+    ul li:hover ul.dropdown{
+        display: block;	/* Display the dropdown */
+    }
+    ul li ul.dropdown li{
+        display: block;
+    }
+
+
+
+.ucontent {height: 100% ;
+  padding-bottom: 100px;
+  background-image:url('../images/skulls.png')
+
+}
+
+.ufooter{
+  margin-top: auto;
+ padding-top: 20px;
+    height: 100px;
+  width: 100%;
+  border-top:thick solid #7D7A7A;
+  
+  
+}
+
+
+
+.icons{
+  margin-top: 30px;
+  cursor: default;
+list-style: outside none none;
+padding-left: 0px;
+text-align: center;
+}
+.icons li{
+  min-width: 50px;
+  display: inline-block;
+  
+}
+
+.icons li a{
+  color: #333;
+  text-decoration: none;
+}
+
+.icons li a:hover{
+  color: #0C6DFF;
+}
+
+.credits {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: bold;
+  font-size: 2em;
+  margin-top: 30px;
+  font-color:#333;
+  margin-left: 30px;
+
+}
+
+.imp a {
+  text-decoration: none;
+  color: darkblue;
+  font-size: 15px;  
+}
+
+a:visited , a:active {
+  text-decoration: none;
+  
+

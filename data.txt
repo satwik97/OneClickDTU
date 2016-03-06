@@ -1,0 +1,1 @@
+[{'date': '01/01/2016', 'link': '#', 'type': 'Holiday', 'title': 'New Year'}, {'date': '01/01/2016', 'link': '#', 'type': 'College Official', 'title': 'Even Semester Registration'}, {'date': '04/01/2016', 'link': '#', 'type': 'College Official', 'title': 'Even Semester Starts'}, {'date': '13/01/2016', 'link': '#', 'type': 'Holiday', 'title': 'Lohri'}]

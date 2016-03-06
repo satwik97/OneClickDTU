@@ -1,0 +1,14 @@
+enum/LICENSE,sha256=iOxqbI6vo7l1fnRXg5OL7z9eTV48drHbV2qjq1IOXh0,1508
+enum/README,sha256=fyStyG6c3wxR2bHyZhLPNtc_ASDxGw-l8G6LzVxmkig,157
+enum/__init__.py,sha256=7s2mdTRSZj7HldUMCL4SlYhxYdFfLdKIGVVFftVpU18,31017
+enum/test_enum.py,sha256=Isyc3pX0YMw2S6XZkY5G5foKFyyzcyoM5Fefoi1tcPE,66917
+enum/doc/enum.pdf,sha256=8OEhEu2J2mVnSGISl6gtiLl5MxyknNsM9U6Ts7ynKyg,70163
+enum/doc/enum.rst,sha256=-FmPL1j4l6qzV7_suVMdDiacOa34HPNvdf_zojNgDGY,22435
+enum34-1.1.1.dist-info/DESCRIPTION.rst,sha256=i-9GWFhj_zGJ43JeeXeUIqqS7WqVzDpOVG69Fw-jZdg,22429
+enum34-1.1.1.dist-info/METADATA,sha256=QH277mW4fFlX-zohP2I4vzlUTEPcUAmO4pMX3MeDiVs,23953
+enum34-1.1.1.dist-info/RECORD,,
+enum34-1.1.1.dist-info/WHEEL,sha256=3BTqKpHqwt_rzaCQaFEIeFXHTrSWBSQKkqmeYbLAVWs,97
+enum34-1.1.1.dist-info/metadata.json,sha256=uT5fTbCOz4CMXYwampGW6-C2bZamVk6VaiAnZhkwphw,885
+enum34-1.1.1.dist-info/top_level.txt,sha256=jayVFfXRwPLUdgRN9GzacnFrOtEKQaAScXIY8mwgP8g,5
+enum/__init__.pyc,,
+enum/test_enum.pyc,,
